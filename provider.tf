@@ -32,7 +32,7 @@ provider "kubernetes" {
 }
 
 provider "aws" {
-  region = "ap-south-1-1"
+  region = "ap-south-1"
 }
 
 resource "random_string" "suffix" {
