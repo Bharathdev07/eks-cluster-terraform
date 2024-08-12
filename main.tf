@@ -11,8 +11,8 @@ module "eks" {
   scaling_desired_size    = 1
   scaling_max_size        = 1
   scaling_min_size        = 1
-  instance_types          = ["t3.small"]
-  key_pair                = "XXXX"
+  instance_types          = ["t2.medium"]
+  key_pair                = "new"
 }
 
 module "vpc" {
